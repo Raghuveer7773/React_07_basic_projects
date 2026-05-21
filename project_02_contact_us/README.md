@@ -3,7 +3,7 @@ https://graceful-bonbon-1b5a6b.netlify.app/
 
 
 ## 📸 Project Preview
-![Project Screenshot](./public/project-preview.png)
+![alt text](<Screenshot 2026-05-20 175652-1.png>)
 
 
 📞 React Contact Page Project
