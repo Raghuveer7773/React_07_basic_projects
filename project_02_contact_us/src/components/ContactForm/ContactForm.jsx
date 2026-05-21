@@ -5,8 +5,8 @@ import { FaPhoneAlt } from "react-icons/fa";
 import { HiMail } from "react-icons/hi";
 import { useState } from "react";
 const ContactForm = () => {
-  const [name, setName] = useState("Anshu");
-  const [email, setEmail] = useState("support@dosomecoding.com");
+  const [name, setName] = useState("Raghuveer");
+  const [email, setEmail] = useState("raghuveersinghrathore245@gmail.com");
   const [text, setText] = useState("Subscribe to this channel");
 
   const onSubmit = (event) => {

@@ -1,26 +1,110 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🔗 Live Demo
+https://graceful-bonbon-1b5a6b.netlify.app/
 
 
+## 📸 Project Preview
+![Project Screenshot](./public/project-preview.png)
 
 
+📞 React Contact Page Project
+A modern and responsive Contact Page built using React.js.
+This project focuses on building reusable UI components, handling forms, managing state with Hooks, and implementing clean styling using CSS Modules.
 
-Module css
-usestate hook
-npm i react-icons
-props
-object resturctiring 
+🚀 Project Overview
+
+The application includes:
+• Responsive Navigation Bar
+• Contact Header Section
+• Contact Form
+• Reusable Button Component
+• Form Submission Handling
+• React Icons Integration
+• Responsive Layout using Flexbox
+• Clean UI with CSS Modules
+
+🛠 Technologies Used
+• React.js
+• JavaScript (ES6+)
+• CSS Modules
+• React Icons
+• Vite
+
+
+⚛️ React Concepts Used
+1. Components
+The project is divided into reusable components:
+• Navigation
+• ContactHeader
+• ContactForm
+• Button
+Why Components?
+• Reusable
+• Cleaner
+• Easier to maintain
+• Scalable
+2. Props
+Props are used to pass data from parent components to child components.
+Example:
+<Button text="VIA SUPPORT CHAT" icon={<MdMessage fontSize="24px" />} />
+Props Used:
+• text
+• icon
+• isOutline
+• type
+Purpose:
+Props make components dynamic, flexible, and reusable.
+
+3. useState Hook
+Example:
+const [name, setName] = useState("Raghuveer");
+Purpose:
+• Store user input
+• Update values dynamically
+• Re-render UI automatically
+
+4. Event Handling
+Example:
+const onSubmit = (event) => { event.preventDefault(); };
+Purpose:
+Prevents page refresh on form submission.
+
+5. Form Handling
+Form data is collected from user inputs and managed using React state.
+
+6. CSS Modules
+Example:
+import styles from "./Button.module.css";
+Benefits:
+• No global CSS conflicts
+• Scoped styling
+• Cleaner structure
+• Better maintainability
+
+7. Conditional Styling
+Example:
+className={ props.isOutline ? styles.outline_btn : styles.primary_btn }
+
+8. Reusable UI Design
+The Button component is reused across the application.
+📚 JavaScript Concepts Used
+• Arrow Functions
+• Template Literals
+• Ternary Operator
+• ES6 Imports & Exports
+• Functions
+• Event Handling
+🔥 Learning Outcomes
+• React component architecture
+• Props handling
+• useState Hook
+• Event handling
+• Form handling
+• CSS Modules
+• Responsive Flexbox layouts
+• Reusable UI creation
+• Dynamic rendering
+• Modern React project structure
+
+
+👨‍💻 Author
+Developed by Raghuveer Singh Rathore 🚀
